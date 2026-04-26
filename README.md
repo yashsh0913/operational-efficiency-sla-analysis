@@ -1,46 +1,97 @@
-# Operational Efficiency & SLA Optimization
+# 📊 Operational Efficiency & SLA Performance Analysis
 
-## 📌 Problem
-Service operations were experiencing high SLA breach rates, leading to delayed resolutions and reduced customer satisfaction.
+## 🔍 Overview
+This project analyses SLA performance across ticket lifecycles to diagnose operational inefficiencies and identify key drivers of SLA breaches. Using SQL and Power BI, it focuses on understanding *why* breaches occur and how process-level interventions can improve performance.
 
-## 🎯 Objective
-To analyse operational ticket data and identify key drivers of SLA breaches and inefficiencies across teams and workflows.
+---
 
-## 🛠️ Approach
-- Built a structured dataset simulating real-world service operations
-- Analysed KPIs: SLA breach rate, resolution time, first response time, escalation rate, CSAT
-- Segmented performance by priority, team, and issue type
-- Performed root cause analysis to identify bottlenecks
-- Simulated improvement scenarios to estimate impact
+## 🎯 Objectives
+- Evaluate SLA adherence across workflows  
+- Identify bottlenecks impacting resolution time and escalation rates  
+- Perform root cause analysis on SLA breaches  
+- Analyse performance across priority levels, teams, and issue types  
+- Estimate impact of operational improvements  
 
-## 📊 Key Insights
-- ~70% SLA breach rate across tickets  
-- High-priority tickets had the highest failure rate  
-- Operations & Escalations teams showed worst performance  
-- Support team performed significantly better  
-- Delayed assignment and agent capacity were key root causes  
-- SLA breaches correlated with lower customer satisfaction  
+---
 
-## 📈 Business Impact
-- High breach rates negatively affect customer experience  
-- Incremental improvements yield limited gains  
-- Indicates need for structural process improvements  
+## 🧰 Tools & Technologies
+- SQL (MySQL / PostgreSQL)  
+- Power BI  
+- Microsoft Excel  
 
-## 💡 Recommendations
-- Auto-assignment for high-priority tickets  
-- Workload balancing across teams  
-- Reduce escalation dependency  
-- Real-time SLA monitoring and early alerts  
+---
 
-## 📂 Project Structure
-operational-efficiency-sla-analysis/  
-├── data/  
-│   └── operations_sla_dataset.csv  
-├── sql/  
-│   └── analysis_queries.sql  
+## 📁 Project Structure
+data/        → Dataset used for analysis  
+schema/      → Table structure (schema.sql)  
+queries/     → SQL queries for KPI tracking & analysis  
+dashboard/   → Power BI dashboard & screenshot  
+
+---
+
+## 📊 Dashboard Preview
+![SLA Dashboard](dashboard/screenshot.png)
+
+> Add your dashboard screenshot in the `dashboard` folder as **screenshot.png**
+
+---
+
+## 📈 Key Analysis
+
+### KPI Framework
+- Tracked:
+  - SLA breach rate  
+  - Resolution time  
+  - First response time  
+  - Escalation rate  
+  - CSAT  
+
+### Segmented Performance Analysis
+- Analysed SLA performance across:
+  - Priority levels (High / Medium / Low)  
+  - Teams (Operations, Support, Escalations)  
+  - Issue categories  
+
+### Root Cause Analysis
+- Identified key drivers of SLA breaches:
+  - Delayed ticket assignment  
+  - Uneven workload distribution  
+  - Capacity constraints  
+
+### Bottleneck Identification
+- Linked assignment delays to:
+  - Increased resolution time  
+  - Higher escalation rates  
+- Found ~70% SLA breaches concentrated in high-priority workflows  
+
+### Scenario Modeling
+- Simulated improvements:
+  - Workload balancing  
+  - Assignment optimization  
+- Projected ~20–25% reduction in SLA breaches  
+
+---
+
+## 💡 Key Insights
+- SLA breaches are concentrated in high-priority workflows, not evenly distributed  
+- Assignment delays significantly impact overall SLA performance  
+- Capacity imbalance is a major contributor to inefficiency  
+- Targeted interventions can meaningfully improve SLA adherence  
+
+---
+
+## 🚀 Outcome
+- Diagnosed systemic inefficiencies in SLA performance  
+- Identified high-impact operational bottlenecks  
+- Enabled data-driven recommendations for process optimization  
+
+---
 
 ## 🧠 Skills Demonstrated
-SQL • Business Analysis • Root Cause Analysis • Data Storytelling • Operational Efficiency  
+SQL · SLA Analytics · KPI Design · Root Cause Analysis · Operational Analytics · Power BI · Process Optimization · Scenario Modeling · Workflow Analysis  
 
-## 📌 Note
-This dataset is synthetically created to simulate real-world SLA tracking, escalation handling, and capacity constraints.
+---
+
+## 🔗 Connect
+- LinkedIn: https://linkedin.com/in/yash-sharma-73300a249  
+- GitHub: https://github.com/yashsh0913  
