@@ -1,7 +1,7 @@
 # 📊 Operational Efficiency & SLA Performance Analysis
 
 ## 🔍 Overview
-This project analyses SLA performance across ticket lifecycles to diagnose operational inefficiencies and identify key drivers of SLA breaches. Using SQL and Power BI, it focuses on understanding *why* breaches occur and how process-level interventions can improve performance.
+This project analyses SLA performance across ticket lifecycles to diagnose operational inefficiencies and identify key drivers of SLA breaches. Using SQL, it focuses on understanding *why* breaches occur and how process-level improvements can enhance operational performance.
 
 ---
 
@@ -16,23 +16,27 @@ This project analyses SLA performance across ticket lifecycles to diagnose opera
 
 ## 🧰 Tools & Technologies
 - SQL (MySQL / PostgreSQL)  
-- Power BI  
 - Microsoft Excel  
 
 ---
 
 ## 📁 Project Structure
-data/        → Dataset used for analysis  
+data/        → Dataset used for analysis (CSV)  
 schema/      → Table structure (schema.sql)  
 queries/     → SQL queries for KPI tracking & analysis  
-dashboard/   → Power BI dashboard & screenshot  
 
 ---
 
-## 📊 Dashboard Preview
-![SLA Dashboard](dashboard/screenshot.png)
-
-> Add your dashboard screenshot in the `dashboard` folder as **screenshot.png**
+## 📊 Data Source
+- Raw ticket lifecycle dataset (CSV)  
+- Key fields include:
+  - Ticket ID  
+  - Priority  
+  - Assignment time  
+  - Resolution time  
+  - SLA status  
+  - Escalation flag  
+  - CSAT  
 
 ---
 
@@ -88,7 +92,7 @@ dashboard/   → Power BI dashboard & screenshot
 ---
 
 ## 🧠 Skills Demonstrated
-SQL · SLA Analytics · KPI Design · Root Cause Analysis · Operational Analytics · Power BI · Process Optimization · Scenario Modeling · Workflow Analysis  
+SQL · SLA Analytics · KPI Design · Root Cause Analysis · Operational Analytics · Process Optimization · Scenario Modeling · Workflow Analysis  
 
 ---
 
