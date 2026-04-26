@@ -76,11 +76,45 @@ queries/     → SQL queries for KPI tracking & analysis
 
 ---
 
+## 📊 Sample Query Output
+
+Example output from SLA performance analysis:
+
+| Priority | Tickets | Avg Resolution Time | SLA Breach % |
+|----------|--------|---------------------|--------------|
+| High     | 320    | 18.5 hrs            | 72%          |
+| Medium   | 540    | 26.2 hrs            | 48%          |
+| Low      | 410    | 30.1 hrs            | 35%          |
+
+### Team-Level SLA Performance
+
+| Team        | Avg Resolution Time | SLA Breach % |
+|-------------|---------------------|--------------|
+| Operations  | 22.4 hrs            | 58%          |
+| Support     | 26.7 hrs            | 62%          |
+| Escalations | 30.3 hrs            | 75%          |
+
+---
+
+## ⚠️ Data Challenges
+- Missing or inconsistent timestamps in ticket lifecycle data  
+- Variations in SLA definitions across issue types  
+- Data cleaning required to standardize priority and status fields  
+
+---
+
 ## 💡 Key Insights
 - SLA breaches are concentrated in high-priority workflows, not evenly distributed  
 - Assignment delays significantly impact overall SLA performance  
 - Capacity imbalance is a major contributor to inefficiency  
 - Targeted interventions can meaningfully improve SLA adherence  
+
+---
+
+## 📌 Recommendations
+- Implement automated ticket assignment to reduce delays  
+- Introduce workload balancing across teams  
+- Prioritise high-impact workflows for SLA monitoring  
 
 ---
 
