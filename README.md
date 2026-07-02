@@ -3,7 +3,7 @@
 
 **Independent Consulting Case Study**  
 Prepared by: Yash Sharma  
-Date: April 2026  
+Date: March 2026  
 
 ---
 
