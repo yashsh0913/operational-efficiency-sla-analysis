@@ -1,5 +1,5 @@
-# Operational Excellence Assessment
-## SLA Performance Diagnostics & Process Optimization
+# Revenue Intelligence: SLA Response Time Diagnostics
+### Sales Response Time & Conversion Efficiency Study
 
 > **An end-to-end operational analytics case study demonstrating how structured data analysis can diagnose process inefficiencies, identify the root causes of SLA non-compliance, and translate analytical findings into actionable business recommendations.**
 
