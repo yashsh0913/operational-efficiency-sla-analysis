@@ -258,11 +258,21 @@ The purpose was to estimate operational improvements achievable through process 
 
 # Executive Dashboard
 
-To support leadership decision-making, analytical findings were translated into a multi-page executive Power BI dashboard.
+The analytical findings were translated into an executive Power BI dashboard designed to support operational decision-making. The dashboard is structured to guide leadership from high-level performance monitoring through operational diagnosis and finally to strategic recommendations.
 
-The dashboard is structured to guide decision-makers from high-level performance monitoring through diagnostic investigation and finally to actionable business recommendations.
+### 🌐 Interactive Dashboard
+
+View the fully interactive HTML dashboard here:
+
+**https://yashsh0913.github.io/operational-efficiency-sla-analysis/assets/SLA_Diagnostics_Executive_Dashboard.html**
 
 ---
+
+## Executive Summary
+
+![Executive Summary](assets/dashboard_01_executive_summary.png)
+
+...
 
 ## Executive Summary Dashboard
 
